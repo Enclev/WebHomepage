@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>개의 식생활과 산책 체크</title>
+</head>
+<body>
+  <h1>개의 식생활과 산책 체크</h1>
+  
+  <div>
+    <h2>아침과 저녁 식사</h2>
+    <label for="morning">아침 식사:</label>
+    <input type="checkbox" id="morning" onclick="checkMeal('morning')">
+    
+    <label for="evening">저녁 식사:</label>
+    <input type="checkbox" id="evening" onclick="checkMeal('evening')">
+  </div>
+
+  <div>
+    <h2>산책</h2>
+    <label for="morningWalk">아침 산책:</label>
+    <input type="checkbox" id="morningWalk" onclick="checkWalk('morningWalk')">
+    
+    <label for="eveningWalk">저녁 산책:</label>
+    <input type="checkbox" id="eveningWalk" onclick="checkWalk('eveningWalk')">
+
+    <label for="nightWalk">밤 산책:</label>
+    <input type="checkbox" id="nightWalk" onclick="checkWalk('nightWalk')">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
